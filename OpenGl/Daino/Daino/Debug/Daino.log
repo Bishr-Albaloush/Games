@@ -1,0 +1,27 @@
+﻿Build started 12/24/2022 6:59:39 PM.
+     1>Project "F:\Programing Projects\opengl projects\Daino\Daino\Daino.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(71): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(92): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(97): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(102): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(141): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(159): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(178): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(184): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(185): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\programing projects\opengl projects\daino\daino\source.cpp(189): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Programing Projects\opengl projects\Daino\Debug\Daino.exe" /INCREMENTAL /NOLOGO GLAUX.lib GLU32.lib OPENGL32.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Programing Projects\opengl projects\Daino\Debug\Daino.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Programing Projects\opengl projects\Daino\Debug\Daino.lib" /MACHINE:X86 Debug\Homework.obj
+         Debug\Point.obj
+         Debug\Dino.obj
+         Debug\Source.obj
+         Debug\texture.obj
+         Daino.vcxproj -> F:\Programing Projects\opengl projects\Daino\Debug\Daino.exe
+     1>Done Building Project "F:\Programing Projects\opengl projects\Daino\Daino\Daino.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.40
